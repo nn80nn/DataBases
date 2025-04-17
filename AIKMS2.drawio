@@ -539,7 +539,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lfg0ekuMlnE9R0Q74mE4-2" value="Личный кабинет" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="410" y="235" width="110" height="50" as="geometry" />
+          <mxGeometry x="440" y="235" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lfg0ekuMlnE9R0Q74mE4-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="lfg0ekuMlnE9R0Q74mE4-3" target="lfg0ekuMlnE9R0Q74mE4-4">
           <mxGeometry relative="1" as="geometry" />
@@ -564,9 +564,34 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lfg0ekuMlnE9R0Q74mE4-11" value="&lt;span style=&quot;font-size: 12pt; line-height: 150%; font-family: inter, serif;&quot;&gt;3: Проверка доступности средств&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="80" relative="1" as="geometry">
+          <mxGeometry x="-0.75" width="80" relative="1" as="geometry">
             <mxPoint x="740" y="250" as="sourcePoint" />
             <mxPoint x="740" y="330" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lfg0ekuMlnE9R0Q74mE4-13" value="5:&amp;nbsp;&lt;span style=&quot;font-size: 12pt; line-height: 150%; font-family: inter, serif;&quot;&gt;Результат проверки&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.6667" width="80" relative="1" as="geometry">
+            <mxPoint x="710" y="320" as="sourcePoint" />
+            <mxPoint x="710" y="260" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lfg0ekuMlnE9R0Q74mE4-14" value="&lt;span style=&quot;font-size: 12pt; line-height: 150%; font-family: inter, serif;&quot;&gt;6:Уведомление о статусе перевода&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.12" y="42" width="80" relative="1" as="geometry">
+            <mxPoint x="640" y="350" as="sourcePoint" />
+            <mxPoint x="560" y="290" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lfg0ekuMlnE9R0Q74mE4-16" value="4: Зарезервировать средства" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="360" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="810" y="360" />
+              <mxPoint x="810" y="390" />
+            </Array>
+            <mxPoint x="785" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
