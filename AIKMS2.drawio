@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14" pages="9">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="26.2.14" pages="11">
   <diagram name="Page-1" id="hVTRzLv5xATGgHfcvqhf">
     <mxGraphModel dx="1050" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1031,6 +1031,80 @@
         </mxCell>
         <mxCell id="XEEJo36EFv39BXgniHVU-16" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="XEEJo36EFv39BXgniHVU-7" target="XEEJo36EFv39BXgniHVU-14">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="sujTcKPOrjyLt1KuqB-7" name="Page-10">
+    <mxGraphModel dx="931" dy="1022" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rPlG3kfMd3kvgnqBsBAQ-1" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="120" width="640" height="400" as="geometry">
+            <mxRectangle x="40" y="40" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPlG3kfMd3kvgnqBsBAQ-3" value="&amp;lt;&amp;lt;component&amp;gt;&amp;gt;&lt;div&gt;:Перевод&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rPlG3kfMd3kvgnqBsBAQ-1">
+          <mxGeometry x="140" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rPlG3kfMd3kvgnqBsBAQ-5" value="&amp;lt;&amp;lt;component&amp;gt;&amp;gt;&lt;div&gt;:Клиент&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="rPlG3kfMd3kvgnqBsBAQ-1">
+          <mxGeometry x="140" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rPlG3kfMd3kvgnqBsBAQ-7" value="&amp;lt;&amp;lt;component&amp;gt;&amp;gt;&lt;div&gt;:Система&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="rPlG3kfMd3kvgnqBsBAQ-1">
+          <mxGeometry x="420" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rPlG3kfMd3kvgnqBsBAQ-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;lt;&amp;lt;component&amp;gt;&amp;gt;&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;:Приложение для переводов&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="rPlG3kfMd3kvgnqBsBAQ-1">
+          <mxGeometry x="200" y="10" width="240" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1HhekCiKzo5aTiDIrB4c" name="Page-11">
+    <mxGraphModel dx="607" dy="1249" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tFEX7zKtiP8Omaog74V3-1" value="&quot;процессор&quot;&lt;div&gt;:Приложение&lt;/div&gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="580" y="420" width="220" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="tFEX7zKtiP8Omaog74V3-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=115;exitDy=0;exitPerimeter=0;endArrow=none;startFill=0;" edge="1" parent="1" source="tFEX7zKtiP8Omaog74V3-2" target="tFEX7zKtiP8Omaog74V3-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tFEX7zKtiP8Omaog74V3-2" value="&quot;процессор&quot;&lt;div&gt;:Сервер приложения&lt;/div&gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="150" y="80" width="330" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="tFEX7zKtiP8Omaog74V3-6" value="Защищённая линия связи" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="630" y="80" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tFEX7zKtiP8Omaog74V3-8" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;dashPattern=10 10;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="tFEX7zKtiP8Omaog74V3-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="270" y="200" as="sourcePoint" />
+            <mxPoint x="670" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tFEX7zKtiP8Omaog74V3-9" value="app.exe" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="490" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tFEX7zKtiP8Omaog74V3-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="tFEX7zKtiP8Omaog74V3-11" target="tFEX7zKtiP8Omaog74V3-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tFEX7zKtiP8Omaog74V3-11" value="Module" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="180" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tFEX7zKtiP8Omaog74V3-12" value="&quot;база данных&quot;&lt;div&gt;Клиенты&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="315" y="250" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tFEX7zKtiP8Omaog74V3-13" value="" style="ellipse;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="290" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tFEX7zKtiP8Omaog74V3-14" value="" style="endArrow=none;html=1;rounded=0;align=center;verticalAlign=top;endFill=0;labelBackgroundColor=none;endSize=6;startFill=0;" edge="1" target="tFEX7zKtiP8Omaog74V3-13" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="215" y="230" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="215" y="250" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
