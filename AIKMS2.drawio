@@ -1111,7 +1111,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="TFfGCJ1NakEUymbWTacf-5" value="" style="fontStyle=0;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=2;html=1;" vertex="1" parent="rPlG3kfMd3kvgnqBsBAQ-1">
-          <mxGeometry x="540" y="255" width="30" height="30" as="geometry" />
+          <mxGeometry x="550" y="255" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TFfGCJ1NakEUymbWTacf-6" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&amp;lt;&amp;lt;delegate&amp;gt;&amp;gt;&lt;/span&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="rPlG3kfMd3kvgnqBsBAQ-1">
           <mxGeometry x="420" y="229" width="80" height="26" as="geometry" />
@@ -1148,10 +1148,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="OQJ0ENzeteEQ6PmLNXNs-6" value="" style="fontStyle=0;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=2;html=1;" vertex="1" parent="rPlG3kfMd3kvgnqBsBAQ-1">
-          <mxGeometry x="540" y="140" width="30" height="30" as="geometry" />
+          <mxGeometry x="550" y="140" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OQJ0ENzeteEQ6PmLNXNs-8" value="Сервер" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="rPlG3kfMd3kvgnqBsBAQ-1">
           <mxGeometry x="475" y="178" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="wVkAYAqhvr-WpgHdHVKc-1" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&amp;lt;&amp;lt;delegate&amp;gt;&amp;gt;&lt;/span&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="rPlG3kfMd3kvgnqBsBAQ-1">
+          <mxGeometry x="470" y="134" width="80" height="26" as="geometry" />
         </mxCell>
         <mxCell id="VmnV_wcKD0bn4HEXHgJJ-1" value="" style="ellipse;html=1;" vertex="1" parent="1">
           <mxGeometry x="91" y="180" width="30" height="30" as="geometry" />
