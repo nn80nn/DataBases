@@ -410,30 +410,57 @@
           <mxGeometry x="320" y="30" width="165" height="70" as="geometry" />
         </mxCell>
         <mxCell id="vVYLtKSI2rcM0Nz0Pjs3-2" value="&amp;nbsp;HR-менеджер" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="100" y="150" width="120" height="60" as="geometry" />
+          <mxGeometry x="222.5" y="300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vVYLtKSI2rcM0Nz0Pjs3-3" value="Специалист по кадрам" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="342.5" y="150" width="120" height="60" as="geometry" />
+          <mxGeometry x="462.5" y="300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vVYLtKSI2rcM0Nz0Pjs3-4" value="Начальник отдела кадров" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="600" y="150" width="120" height="60" as="geometry" />
+          <mxGeometry x="342.5" y="140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vVYLtKSI2rcM0Nz0Pjs3-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vVYLtKSI2rcM0Nz0Pjs3-1" target="vVYLtKSI2rcM0Nz0Pjs3-2">
+        <mxCell id="vVYLtKSI2rcM0Nz0Pjs3-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vVYLtKSI2rcM0Nz0Pjs3-4" target="vVYLtKSI2rcM0Nz0Pjs3-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="170" y="130" as="sourcePoint" />
             <mxPoint x="220" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vVYLtKSI2rcM0Nz0Pjs3-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vVYLtKSI2rcM0Nz0Pjs3-1" target="vVYLtKSI2rcM0Nz0Pjs3-4">
+        <mxCell id="vVYLtKSI2rcM0Nz0Pjs3-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vVYLtKSI2rcM0Nz0Pjs3-1" target="vVYLtKSI2rcM0Nz0Pjs3-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="570" y="100" as="sourcePoint" />
             <mxPoint x="620" y="50" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vVYLtKSI2rcM0Nz0Pjs3-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vVYLtKSI2rcM0Nz0Pjs3-1" target="vVYLtKSI2rcM0Nz0Pjs3-3">
+        <mxCell id="vVYLtKSI2rcM0Nz0Pjs3-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vVYLtKSI2rcM0Nz0Pjs3-4" target="vVYLtKSI2rcM0Nz0Pjs3-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="500" y="280" as="sourcePoint" />
             <mxPoint x="550" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vVYLtKSI2rcM0Nz0Pjs3-8" value="Руководитель подразделения" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="560" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vVYLtKSI2rcM0Nz0Pjs3-9" value="Кандидат на трудоустройство" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="30" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vVYLtKSI2rcM0Nz0Pjs3-10" value="Сотрудник организации" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="650" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vVYLtKSI2rcM0Nz0Pjs3-13" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vVYLtKSI2rcM0Nz0Pjs3-9" target="vVYLtKSI2rcM0Nz0Pjs3-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="430" as="sourcePoint" />
+            <mxPoint x="230" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vVYLtKSI2rcM0Nz0Pjs3-14" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vVYLtKSI2rcM0Nz0Pjs3-3" target="vVYLtKSI2rcM0Nz0Pjs3-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="420" as="sourcePoint" />
+            <mxPoint x="640" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vVYLtKSI2rcM0Nz0Pjs3-15" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vVYLtKSI2rcM0Nz0Pjs3-4" target="vVYLtKSI2rcM0Nz0Pjs3-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="170" as="sourcePoint" />
+            <mxPoint x="520" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
