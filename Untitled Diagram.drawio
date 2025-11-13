@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="28.2.9" pages="5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="28.2.9" pages="7">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="1489" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -797,6 +797,233 @@
           <mxGeometry x="-0.2944" y="2" relative="1" as="geometry">
             <mxPoint x="-20" y="8" as="offset" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="refWeZds0hUPOtyTaSNJ" name="Page-6">
+    <mxGraphModel dx="1042" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LKb-m6d7XJ0c43JW4jXy-1" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="100" y="180" width="20" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="LKb-m6d7XJ0c43JW4jXy-2" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;сотрудник&lt;/span&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LKb-m6d7XJ0c43JW4jXy-3" value="личный кабинет сотрудника" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;" vertex="1" parent="1">
+          <mxGeometry x="210" y="180" width="50" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="LKb-m6d7XJ0c43JW4jXy-4" value="контролер отпусков" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;" vertex="1" parent="1">
+          <mxGeometry x="350" y="180" width="40" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="LKb-m6d7XJ0c43JW4jXy-5" value="сотрудник" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="450" y="180" width="40" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="LKb-m6d7XJ0c43JW4jXy-6" value="заявление на отпуск" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="570" y="180" width="40" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="LKb-m6d7XJ0c43JW4jXy-7" value="отпуск" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="700" y="180" width="40" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="LKb-m6d7XJ0c43JW4jXy-9" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="110" y="250" as="sourcePoint" />
+            <mxPoint x="230" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LKb-m6d7XJ0c43JW4jXy-10" value="&lt;span style=&quot;color: rgb(40, 37, 61); font-family: &amp;quot;Recursive Variable&amp;quot;, arial, sans-serif;&quot;&gt;&lt;font&gt;открыть форму приёма&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(40, 37, 61); font-family: &amp;quot;Recursive Variable&amp;quot;, arial, sans-serif;&quot;&gt;&lt;font&gt;(выбор кандидата и вакансии)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LKb-m6d7XJ0c43JW4jXy-9">
+          <mxGeometry x="0.39" y="1" relative="1" as="geometry">
+            <mxPoint x="-43" y="21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LKb-m6d7XJ0c43JW4jXy-11" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" target="LKb-m6d7XJ0c43JW4jXy-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="230" y="270" as="sourcePoint" />
+            <mxPoint x="340" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LKb-m6d7XJ0c43JW4jXy-12" value="отправитьЗаявление&lt;div&gt;(период, тип)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LKb-m6d7XJ0c43JW4jXy-11">
+          <mxGeometry x="0.1957" y="-3" relative="1" as="geometry">
+            <mxPoint x="-13" y="17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LKb-m6d7XJ0c43JW4jXy-13" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="370" y="300" as="sourcePoint" />
+            <mxPoint x="470" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LKb-m6d7XJ0c43JW4jXy-14" value="&lt;span style=&quot;color: rgb(40, 37, 61); font-family: &amp;quot;Recursive Variable&amp;quot;, arial, sans-serif;&quot;&gt;&lt;font&gt;найтиСотрудника(логин)&lt;/font&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LKb-m6d7XJ0c43JW4jXy-13">
+          <mxGeometry x="0.308" y="-1" relative="1" as="geometry">
+            <mxPoint x="-25" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LKb-m6d7XJ0c43JW4jXy-15" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;dashed=1;" edge="1" parent="1" source="LKb-m6d7XJ0c43JW4jXy-5" target="LKb-m6d7XJ0c43JW4jXy-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="420" y="390" as="sourcePoint" />
+            <mxPoint x="580" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="410" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LKb-m6d7XJ0c43JW4jXy-16" value="данные сотрудника" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LKb-m6d7XJ0c43JW4jXy-15">
+          <mxGeometry x="-0.318" y="-2" relative="1" as="geometry">
+            <mxPoint x="-15" y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LKb-m6d7XJ0c43JW4jXy-17" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="LKb-m6d7XJ0c43JW4jXy-4" target="LKb-m6d7XJ0c43JW4jXy-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="410" y="380" as="sourcePoint" />
+            <mxPoint x="570" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LKb-m6d7XJ0c43JW4jXy-18" value="&lt;span style=&quot;color: rgb(40, 37, 61); font-family: &amp;quot;Recursive Variable&amp;quot;, arial, sans-serif;&quot;&gt;&lt;font&gt;созданное заявление на отпуск&lt;/font&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LKb-m6d7XJ0c43JW4jXy-17">
+          <mxGeometry x="0.39" relative="1" as="geometry">
+            <mxPoint x="-12" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LKb-m6d7XJ0c43JW4jXy-21" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="360" y="450" as="sourcePoint" />
+            <mxPoint x="710" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LKb-m6d7XJ0c43JW4jXy-22" value="&lt;font color=&quot;#28253d&quot; face=&quot;Recursive Variable, arial, sans-serif&quot;&gt;рассмотренное заявление на отпуск&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LKb-m6d7XJ0c43JW4jXy-21">
+          <mxGeometry x="0.4994" y="3" relative="1" as="geometry">
+            <mxPoint x="-42" y="23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LKb-m6d7XJ0c43JW4jXy-25" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="369.5" y="510" as="sourcePoint" />
+            <mxPoint x="234.5" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LKb-m6d7XJ0c43JW4jXy-26" value="&lt;font color=&quot;#28253d&quot; face=&quot;Recursive Variable, arial, sans-serif&quot;&gt;сообщение о статусе отпуска&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LKb-m6d7XJ0c43JW4jXy-25">
+          <mxGeometry x="-0.48" y="-1" relative="1" as="geometry">
+            <mxPoint x="-24" y="21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LKb-m6d7XJ0c43JW4jXy-27" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="234.5" y="530" as="sourcePoint" />
+            <mxPoint x="109.5" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LKb-m6d7XJ0c43JW4jXy-28" value="&lt;span style=&quot;color: rgb(40, 37, 61); font-family: &amp;quot;Recursive Variable&amp;quot;, arial, sans-serif;&quot;&gt;&lt;font&gt;статус отпуска&lt;/font&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LKb-m6d7XJ0c43JW4jXy-27">
+          <mxGeometry x="-0.2944" y="2" relative="1" as="geometry">
+            <mxPoint x="-20" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="FJOv8Bp4j7oh0Sdaiwdy" name="Page-7">
+    <mxGraphModel dx="1042" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zpTvw0_AaIAGL63cd3sz-1" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="100" y="30" width="20" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="zpTvw0_AaIAGL63cd3sz-2" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;руководитель подразделения&lt;/span&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="60" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zpTvw0_AaIAGL63cd3sz-3" value="окно кадровика" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;" vertex="1" parent="1">
+          <mxGeometry x="210" y="30" width="50" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="zpTvw0_AaIAGL63cd3sz-4" value="контролер отпуска" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;" vertex="1" parent="1">
+          <mxGeometry x="350" y="30" width="40" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="zpTvw0_AaIAGL63cd3sz-5" value="заявление на отпуск" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="450" y="30" width="40" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="zpTvw0_AaIAGL63cd3sz-6" value="отпуск" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="570" y="30" width="40" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="zpTvw0_AaIAGL63cd3sz-9" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="110" y="100" as="sourcePoint" />
+            <mxPoint x="230" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zpTvw0_AaIAGL63cd3sz-10" value="&lt;span style=&quot;color: rgb(40, 37, 61); font-family: &amp;quot;Recursive Variable&amp;quot;, arial, sans-serif;&quot;&gt;&lt;font&gt;открыть список заявлений на отпуск&lt;/font&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zpTvw0_AaIAGL63cd3sz-9">
+          <mxGeometry x="0.39" y="1" relative="1" as="geometry">
+            <mxPoint x="-43" y="21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zpTvw0_AaIAGL63cd3sz-11" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" target="zpTvw0_AaIAGL63cd3sz-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="230" y="120" as="sourcePoint" />
+            <mxPoint x="340" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zpTvw0_AaIAGL63cd3sz-12" value="&lt;font color=&quot;#28253d&quot; face=&quot;Recursive Variable, arial, sans-serif&quot;&gt;получить список заявлений&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zpTvw0_AaIAGL63cd3sz-11">
+          <mxGeometry x="0.1957" y="-3" relative="1" as="geometry">
+            <mxPoint x="-13" y="17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zpTvw0_AaIAGL63cd3sz-13" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="370" y="150" as="sourcePoint" />
+            <mxPoint x="470" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zpTvw0_AaIAGL63cd3sz-14" value="&lt;span style=&quot;color: rgb(40, 37, 61); font-family: &amp;quot;Recursive Variable&amp;quot;, arial, sans-serif;&quot;&gt;&lt;font&gt;выбрать заявление на рассмотрении&lt;/font&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zpTvw0_AaIAGL63cd3sz-13">
+          <mxGeometry x="0.308" y="-1" relative="1" as="geometry">
+            <mxPoint x="-25" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zpTvw0_AaIAGL63cd3sz-15" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;dashed=1;" edge="1" parent="1" source="zpTvw0_AaIAGL63cd3sz-29" target="zpTvw0_AaIAGL63cd3sz-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="469.5" y="190" as="sourcePoint" />
+            <mxPoint x="369.5" y="190" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zpTvw0_AaIAGL63cd3sz-17" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="zpTvw0_AaIAGL63cd3sz-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="369.5" y="220" as="sourcePoint" />
+            <mxPoint x="600" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zpTvw0_AaIAGL63cd3sz-18" value="&lt;span style=&quot;color: rgb(40, 37, 61); font-family: &amp;quot;Recursive Variable&amp;quot;, arial, sans-serif;&quot;&gt;&lt;font&gt;подтвердить или отклонить отпуск&amp;nbsp;&lt;/font&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zpTvw0_AaIAGL63cd3sz-17">
+          <mxGeometry x="0.39" relative="1" as="geometry">
+            <mxPoint x="-12" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zpTvw0_AaIAGL63cd3sz-19" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="592.5" y="290" as="sourcePoint" />
+            <mxPoint x="237.5" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zpTvw0_AaIAGL63cd3sz-27" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="234.5" y="350" as="sourcePoint" />
+            <mxPoint x="109.5" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zpTvw0_AaIAGL63cd3sz-28" value="&lt;span style=&quot;color: rgb(40, 37, 61); font-family: &amp;quot;Recursive Variable&amp;quot;, arial, sans-serif;&quot;&gt;&lt;font&gt;вывести статус&lt;/font&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zpTvw0_AaIAGL63cd3sz-27">
+          <mxGeometry x="-0.2944" y="2" relative="1" as="geometry">
+            <mxPoint x="-20" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zpTvw0_AaIAGL63cd3sz-30" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;dashed=1;" edge="1" parent="1" target="zpTvw0_AaIAGL63cd3sz-29">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="469.5" y="190" as="sourcePoint" />
+            <mxPoint x="369.5" y="190" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zpTvw0_AaIAGL63cd3sz-29" value="список заявлений на рассмотрении" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zpTvw0_AaIAGL63cd3sz-31" value="обновлённый статус отпуска" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="300" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
