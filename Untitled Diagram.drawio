@@ -1055,13 +1055,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="l9ig-o5ZF0G_iclXZ8x7-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Войти в личный кабинет" vertex="1">
-          <mxGeometry height="30" width="135" x="135" y="110" as="geometry" />
+          <mxGeometry height="30" width="135" x="135" y="100" as="geometry" />
         </mxCell>
-        <mxCell id="l9ig-o5ZF0G_iclXZ8x7-30" edge="1" parent="1" source="l9ig-o5ZF0G_iclXZ8x7-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_vj0WCMva4lhSYXFRAQ7-1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="l9ig-o5ZF0G_iclXZ8x7-30" edge="1" parent="1" source="l9ig-o5ZF0G_iclXZ8x7-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" target="_vj0WCMva4lhSYXFRAQ7-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="180" />
+              <mxPoint x="160" y="190" />
+              <mxPoint x="155" y="190" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="l9ig-o5ZF0G_iclXZ8x7-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Заполнить форму отпуска" vertex="1">
-          <mxGeometry height="40" width="135" x="135" y="150" as="geometry" />
+          <mxGeometry height="40" width="135" x="135" y="140" as="geometry" />
         </mxCell>
         <mxCell id="l9ig-o5ZF0G_iclXZ8x7-31" edge="1" parent="1" source="l9ig-o5ZF0G_iclXZ8x7-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="l9ig-o5ZF0G_iclXZ8x7-12">
           <mxGeometry relative="1" as="geometry" />
