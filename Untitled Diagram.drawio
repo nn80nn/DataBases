@@ -1222,7 +1222,7 @@
           <mxGeometry height="1160" width="240" x="545" y="30" as="geometry" />
         </mxCell>
         <mxCell id="8euPRkh12OeXvZhyJDbJ-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="HR-менеджер" vertex="1">
-          <mxGeometry height="30" width="60" x="155" y="30" as="geometry" />
+          <mxGeometry height="30" width="85" x="152.5" y="30" as="geometry" />
         </mxCell>
         <mxCell id="8euPRkh12OeXvZhyJDbJ-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Система отдела кадров" vertex="1">
           <mxGeometry height="20" width="160" x="355" y="35" as="geometry" />
